@@ -1,5 +1,8 @@
 package com.dufuna.berlin.akinfenwa.address.model;
 
+/*
+*Represent LekkiProperty
+*/
 public class LekkiProperty {
     private String propertyId;
     private String propertyAddress;
@@ -14,6 +17,7 @@ public class LekkiProperty {
     private String validFrom;
     private String validTo;
 
+    //No-args constructor
     public LekkiProperty() {
     }
 
@@ -128,6 +132,7 @@ public class LekkiProperty {
         return super.toString();
     }
 
+    //Parameter constructor
     public LekkiProperty(String propertyId, String propertyAddress, String propertyType, int numberOfBedrooms, int numberOfSittingRooms, int numberOfKitchens, int numberOfBathrooms, int numberOfToilets, String propertyOwner, String description, String validFrom, String validTo) {
         this.propertyId = propertyId;
         this.propertyAddress = propertyAddress;
