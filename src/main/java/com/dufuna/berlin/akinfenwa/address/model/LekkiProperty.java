@@ -132,7 +132,20 @@ public class LekkiProperty {
         return super.toString();
     }
 
-    //Parameter constructor
+    /**
+     * @param propertyId
+     * @param propertyAddress
+     * @param propertyType
+     * @param numberOfBedrooms
+     * @param numberOfSittingRooms
+     * @param numberOfKitchens
+     * @param numberOfBathrooms
+     * @param numberOfToilets
+     * @param propertyOwner
+     * @param description
+     * @param validFrom
+     * @param validTo
+     */
     public LekkiProperty(String propertyId, String propertyAddress, String propertyType, int numberOfBedrooms, int numberOfSittingRooms, int numberOfKitchens, int numberOfBathrooms, int numberOfToilets, String propertyOwner, String description, String validFrom, String validTo) {
         this.propertyId = propertyId;
         this.propertyAddress = propertyAddress;
@@ -148,19 +161,35 @@ public class LekkiProperty {
         this.validTo = validTo;
     }
 
+    /**
+     * @param id
+     */
     public void setId(int id) {
     }
 
+    /**
+     * @return
+     */
     public int getId() {
         return 0;
     }
 
+    /**
+     * @param s
+     */
     public void setName(String s) {
     }
 
+    /**
+     * @param property
+     */
     public void saveProperty(LekkiProperty property) {
     }
 
+    /**
+     * @param propertyId
+     * @return
+     */
     public LekkiProperty getProperty(int propertyId) {
         return null;
     }
