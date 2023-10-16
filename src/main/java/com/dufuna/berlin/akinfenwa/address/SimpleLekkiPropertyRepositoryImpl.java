@@ -30,6 +30,9 @@ public class SimpleLekkiPropertyRepositoryImpl implements SimpleLekkiPropertyRep
         return new ArrayList<>(propertyMap.values());
     }
 
+    /**
+     * @param property
+     */
     @Override
     public void update(LekkiProperty property) {
         int id = property.getId();

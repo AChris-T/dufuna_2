@@ -8,6 +8,9 @@ import com.dufuna.berlin.akinfenwa.address.service.MockLekkiPropertyService;
 import java.util.List;
 
 public class MockLekkiPropertyApp {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         SimpleLekkiPropertyRepository propertyRepository = new SimpleLekkiPropertyRepositoryImpl();
         LekkiPropertyService propertyService = new LekkiPropertyServiceClss(propertyRepository);
