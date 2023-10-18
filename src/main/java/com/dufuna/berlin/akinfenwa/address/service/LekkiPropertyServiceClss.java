@@ -25,8 +25,7 @@ public class LekkiPropertyServiceClss implements LekkiPropertyService {
     @Override
     public LekkiProperty saveProperty(LekkiProperty lekkiProperty) {
         LekkiProperty property = new LekkiProperty();
-        LekkiProperty save = propertyRepository.save(property);
-        return save;
+        return propertyRepository.save(property);
 
     }
 

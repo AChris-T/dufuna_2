@@ -40,4 +40,8 @@ public class SimpleLekkiPropertyRepositoryImpl implements SimpleLekkiPropertyRep
             propertyMap.put(id,property);
         }
     }
+
+    public String getLekkiProperty(String somePropertyId) {
+        return somePropertyId;
+    }
 }
