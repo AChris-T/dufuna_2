@@ -22,6 +22,7 @@ public class MockLekkiPropertyService implements LekkiPropertyService{
      */
     @Override
     public LekkiProperty getProperty(int id) {
+
         return null;
     }
 
@@ -30,6 +31,7 @@ public class MockLekkiPropertyService implements LekkiPropertyService{
      */
     @Override
     public List<LekkiProperty> getProperties() {
+
         return null;
     }
 
@@ -38,6 +40,7 @@ public class MockLekkiPropertyService implements LekkiPropertyService{
      */
     @Override
     public LekkiProperty getProperty() {
+
         return null;
     }
 }
